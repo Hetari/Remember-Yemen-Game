@@ -26,7 +26,7 @@ The **Turtle module** is included with **Python**, so no additional installation
 
    * If you guess a city correctly, the program will show the location of the city on the map and write the name of the city in **bold letters** at that location. The program will also keep track of the cities you have guessed so far.
 
-3. You can guess up to 22 cities before the game ends. To exit the game you need to guessing 22 cities, or you can enter ***"Exit"*** at any time.
+3. You can guess up to 21 cities before the game ends. To exit the game you need to guessing 21 cities, or you can enter ***"Exit"*** at any time.
 
 4. When the game ends, the program will save a list of the cities you missed to a CSV file called **`Missed Cities.csv`**
 
