@@ -4,6 +4,8 @@
 
 This is a Python program that allows users to play a game called "Remember Yemen". The game is played by guessing the names of cities in Yemen and locating them on a map of the country.
 
+This game is based on [**100 Days of Code: The Complete Python Pro Bootcamp for 2023** course on Udemy - Day 25](https://www.udemy.com/course/100-days-of-code/?kw=100+Days+of+Code%3A+Python&src=sac)
+
 ----------
 
 ## Installation
