@@ -20,15 +20,17 @@ The **Turtle module** is included with **Python**, so no additional installation
 
 ## How to run/use or play
 
-1. To start the game, run the **`remember_yemen.py`** file in your terminal or preferred Python IDE.
+1. To start the game, run the **`SetUp.py`** file in your terminal or preferred Python IDE.
 
-2. The game will display an image of a map of Yemen, and prompt you to guess the name of a city. You can enter the name of a city either in English or Arabic languages.
+2. After that run **`Main.py`** and the game will be show up.
+
+4. The game will display an image of a map of Yemen, and prompt you to guess the name of a city. You can enter the name of a city either in English or Arabic languages.
 
    * If you guess a city correctly, the program will show the location of the city on the map and write the name of the city in **bold letters** at that location. The program will also keep track of the cities you have guessed so far.
 
-3. You can guess up to 21 cities before the game ends. To exit the game you need to guessing 21 cities, or you can enter ***"Exit"*** at any time.
+4. You can guess up to 21 cities before the game ends. To exit the game you need to guessing 21 cities, or you can enter ***"Exit"*** at any time.
 
-4. When the game ends, the program will save a list of the cities you missed to a CSV file called **`Missed Cities.csv`**
+5. When the game ends, the program will save a list of the cities you missed to a CSV file called **`Missed Cities.csv`**
 
 ----------
 
