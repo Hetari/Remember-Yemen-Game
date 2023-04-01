@@ -1,7 +1,6 @@
 import pandas
 import turtle
 import os
-import time
 
 
 os.system("cls")
@@ -59,10 +58,14 @@ while True and len(guessed) < 21:
         print('Exit...')
         break
 
-    guessed.append(input)
-    pen.goto(x_pos, y_pos)
-    pen.pendown()
-    pen.write(arg=input, font=('Arial', 8, 'bold'))
+
+    if input not in guessed:
+        guessed.append(input)
+        pen.goto(x_pos, y_pos)
+        pen.pendown()
+        pen.write(arg=input, font=('Arial', 8, 'bold'))
+    else:
+        print("The city is already guessed!")
 
 
 screen.exitonclick()
